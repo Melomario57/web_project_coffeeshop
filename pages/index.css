@@ -157,12 +157,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
-  box-sizing: border-box;
+  padding-top: 100px;
+  padding-bottom: 214px;
 }
 
 .recipes__title {
-  margin-top: 100px;
   margin-left: 80px;
+  margin-top: 0;
   margin-bottom: 0;
   max-width: 580px;
   font-family: "Inter", Arial, sans-serif;
@@ -207,7 +208,6 @@
 
 .recipes__video-caption {
   margin-top: 24px;
-  margin-bottom: 215px;
 
   font-family: "Inter", Arial, sans-serif;
 
