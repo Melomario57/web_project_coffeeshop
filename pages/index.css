@@ -40,10 +40,9 @@
   display: flex;
   column-gap: 20px;
   padding: 0;
-  position: absolute;
-  top: 30px;
-  right: 80px;
-  margin: 0;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-right: 80px;
 }
 
 .nav__link {
@@ -80,6 +79,7 @@
 }
 
 .header__title {
+  max-width: 709px;
   margin-left: 80px;
   margin-top: 183px;
   margin-bottom: 0;
@@ -203,8 +203,8 @@
 }
 
 .recipes__video-caption {
-  margin-top: 24px;
-
+  display: flex;
+  justify-content: space-between;
   font-family: "Inter", Arial, sans-serif;
 
   font-weight: 500;
