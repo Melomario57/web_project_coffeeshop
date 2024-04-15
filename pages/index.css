@@ -136,12 +136,12 @@
   color: #838383;
 }
 
-.header__schedule {
+.header__schedule_left_side {
   position: absolute;
   left: 80px;
   bottom: 40px;
 }
-.header__adress {
+.header__address_right_side {
   position: absolute;
   right: 80px;
   bottom: 40px;
