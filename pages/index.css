@@ -118,10 +118,7 @@
   margin-top: auto;
   width: 100%;
   display: flex;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  box-sizing: border-box;
+  justify-content: space-between;
 }
 
 .header__paragraph {
@@ -137,14 +134,18 @@
 }
 
 .header__schedule_left_side {
-  position: absolute;
-  left: 80px;
-  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-bottom: 40px;
+  l
 }
 .header__address_right_side {
-  position: absolute;
-  right: 80px;
-  bottom: 40px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+  align-self: end;
+
+
 }
 .recipes {
   background-color: #0a2750;
@@ -212,4 +213,59 @@
   font-size: 20px;
 
   line-height: 30px;
+}
+
+/* Aqui empieza lo de los formularios */
+.reservation {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-color: #d9e7ff;
+  background-image: url("/images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.reservation__title {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+
+  font-weight: 500;
+
+  font-size: 44px;
+
+  line-height: 52px;
+}
+
+.form {
+}
+.reservation__form {
+}
+
+.form__label {
+  font-family: "Inter", Arial, sans-serif;
+
+  font-weight: 500;
+
+  font-size: 16px;
+
+  line-height: 20px;
+}
+
+.form__input {
+  font-family: "Inter", Arial, sans-serif;
+
+  font-size: 20px;
+
+  line-height: 30px;
+}
+
+.form__button {
+  font-family: "Inter", Arial, sans-serif;
+
+  font-weight: 500;
+
+  font-size: 16px;
+
+  line-height: 20px;
 }
