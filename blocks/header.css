@@ -13,30 +13,6 @@
   flex-direction: column;
 }
 
-.span-accent {
-  font-family: "Noto Serif", "Times New Roman", serif;
-
-  font-style: italic;
-
-  font-size: 58px;
-
-  line-height: 72px;
-
-  color: #2f80ed;
-}
-
-.span-accentt {
-  font-family: "Inter", Arial, sans-serif;
-
-  font-weight: 500;
-
-  font-size: 58px;
-
-  line-height: 72px;
-
-  letter-spacing: -1px;
-}
-
 .header__title {
   max-width: 709px;
   margin-left: 80px;
