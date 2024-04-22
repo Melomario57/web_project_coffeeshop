@@ -29,3 +29,7 @@
   line-height: 20px;
   color: #000000;
 }
+
+.nav__link:hover {
+  color: #c1c1c1;
+}
