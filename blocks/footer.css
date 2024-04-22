@@ -19,7 +19,7 @@
   height: 340px;
   background-color: #2f80ed;
   border-radius: 50%;
-  z-index: 2;
+  z-index: -2;
 }
 
 .footer__social-heading {
