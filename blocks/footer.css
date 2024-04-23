@@ -5,6 +5,7 @@
   color: #fff;
   position: relative;
   z-index: -1;
+  overflow: hidden;
 }
 .footer__content {
   display: flex;

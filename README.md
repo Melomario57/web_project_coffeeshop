@@ -36,7 +36,13 @@ Gracias a la elaboración de este formulario, me ayudo a mejorar algunas cosas q
 
 La parte en la que tuve dificultades fue en alinear los nombres de la etiqueta <label> con su respectivo <input>, y al final lo pude resolver con flexbox asignando dicha propiedad al bloque . reservation y al .form\_\_fieldset
 
-4. Sección footer: <!-- Pendiente a completar descripción -->
+4. Sección footer:
+
+![alt text](image-3.png)
+
+La última sección fue muy completa, porque aprendí a como importar bloques (BEM) en archivos css distintos, lo cuál permite que tenga un código más ordenado, también pueda consultar clases más rápido y reutilizarlas.
+
+Tuve dificultades con el el div class footer\_\_circle, porque no encontraba la manera de acomodarlo con z-index, y en consecuencia el circulo le sobraba un espacio fuera de la página. Para resolverlo recorde lo que había aprendido hasta el momento, y utilizé la propiedad overflow: hidden; y sirvio para que el espacio extra se eliminará.
 
 ## Tecnologías utilizadas:
 
