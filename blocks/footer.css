@@ -57,6 +57,7 @@
   justify-content: end;
   column-gap: 10px;
   color: #fff;
+  cursor: pointer;
 }
 
 .footer__social-link:hover {
